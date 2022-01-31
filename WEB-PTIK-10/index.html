@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d51c5ccab8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Praise&display=swap" rel="stylesheet">
+    <title>Galeri Satwa Endemik Indonesia</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <h1>Mari Jaga Satwa Kita!</h1>
+    </div>
+    </div>
+
+    <nav class="header sticky" id="myHeader">
+        <label class="logo"> 
+            <a href="">Galeri Satwa Endemik Indonesia</a>
+        </label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li class="active"><a href="#home">Beranda</a></li>
+            <li class="active"><a href="#ref">Referensi</a></li>
+            <li class="active"><a href="#about">Tentang Kami</a></li>
+        </ul>
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {
+                myFunction()
+            };
+
+            // Get the header
+            var header = document.getElementById("myHeader");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+    </nav>
+
+    <section class="container">
+        <div class="galeri" id="home">
+            <h1>Selamat Datang di Galeri Satwa Endemik Indonesia!</h1>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/1f/da/75/1fda75cc94b342f175f3b7196af0a82f.jpg" alt="">
+            </div>
+            <h2>Burung Cendrawasih</h2>
+            <h3>(Lycocorax pyrrhopterus)</h3>
+            <p>Kelas : Aves</p>
+            <p>Ordo : Passeriformes</p>
+            <p>Famili : Paradisaeidae Genera</p>
+            <p>Genus : Lycocorax</p>
+            <p>Spesies : Lycocorax pyrrhopterus</p>
+            <a id="bottom" href="cendrawasih.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/ed/1e/8c/ed1e8cc1de77ff899f61f62e9837bfcc.jpg" alt="">
+            </div>
+            <h2>Komodo</h2>
+            <h3>(Varanus komodoensis)</h3>
+            <p>Kelas : Reptilia</p>
+            <p>Ordo : Squamata</p>
+            <p>Famili : Varanidae</p>
+            <p>Genus : Varanus</p>
+            <p>Spesies : Varanus komodoensis</p>
+            <a href="komodo.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/83/e6/9b/83e69ba478266c058ff36d99f627f950.jpg" alt="">
+            </div>
+            <h2>Burung Maleo</h2>
+            <h3>(Macrocephalon maleo)</h3>
+            <p>Kelas : Aves</p>
+            <p>Ordo : Galliformes</p>
+            <p>Famili : Megapodiidae</p>
+            <p>Genus : Macrocephalon</p>
+            <p>Spesies : Macrocephalon maleo</p>
+            <a href="maleo.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/d2/7a/03/d27a03fe49b82abd4d6e99383b35bf81.jpg" alt="">
+            </div>
+            <h2>Burung Jalak Bali</h2>
+            <h3>(Leucopsar rothschildi)</h3>
+            <p>Kelas : Aves</p>
+            <p>Ordo : Plasseriformes</p>
+            <p>Famili : Sturnidae</p>
+            <p>Genus : Leucopsar</p>
+            <p>Spesies : Leucopsar rothschildi</p>
+            <a href="jalak bali.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/c3/96/32/c396322d0f50a04b88442fcdbaa1be7f.jpg" alt="">
+            </div>
+            <h2>Gajah Sumatera</h2>
+            <h3>(Elephas maximus sumatrensis</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Proboscidea</p>
+            <p>Famili : Elephantidae</p>
+            <p>Genus : Elephas</p>
+            <p>Spesies : E.maximus</p>
+            <a href="gajah sumatera.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/98/44/cb/9844cb57525b66bf37130e700767d337.jpg" alt="">
+            </div>
+            <h2>Orang Utan</h2>
+            <h3>(Pongo abelii)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Primata</p>
+            <p>Famili : Hominidae</p>
+            <p>Genus : Pongo</p>
+            <p>Spesies : Pongi abelii</p>
+            <a href="orang utan.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/e9/7f/73/e97f73af38cfb6138cdb86d4b444b582.jpg" alt="">
+            </div>
+            <h2>Badak Cula Satu</h2>
+            <h3>(Rhinoceros sondaicus)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Perissodactyla</p>
+            <p>Famili : Rhinocerotidae</p>
+            <p>Genus :Rhinoceros</p>
+            <p>Spesies : Rhinoceros sondaicus</p>
+            <a href="badak cula satu.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/736x/38/6a/fa/386afa036ec4076f86c3254d30e7c51f.jpg" alt="">
+            </div>
+            <h2>Harimau Sumatera</h2>
+            <h3>(Panthera tigris sondaica)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Carnivora</p>
+            <p>Famili : Felidae</p>
+            <p>Genus : Panthera</p>
+            <p>Spesies : Panthera tigris sondaica</p>
+            <a href="harimau sumatera.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/2b/54/59/2b54598bd7040bfec4bc230e0c338660.jpg" alt="">
+            </div>
+            <h2>Binturung</h2>
+            <h3>(Arctictis binturong)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Carnivora</p>
+            <p>Famili : Viverridae</p>
+            <p>Genus : Arctictis</p>
+            <p>Spesies : Arctictis binturong</p>
+            <a href="binturung.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://www.greeners.co/wp-content/uploads/2021/04/Elang-Flores-Abdul-Azis-Gizan.jpg" alt="">
+            </div>
+            <h2>Burung Elang Flores</h2>
+            <h3>(Nisaetus floris)</h3>
+            <p>Kelas : Aves</p>
+            <p>Ordo : Acciptriformes</p>
+            <p>Famili : Accipitridae</p>
+            <p>Genus : Nisaetus</p>
+            <p>Spesies : Nisaetus floris</p>
+            <a href="elang flores.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/d9/54/37/d954376ba57e9210ba7fab9c0a8a9f47.jpg" alt="">
+            </div>
+            <h2>Kukang Jawa</h2>
+            <h3>(Nycticebus Javanicus)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Primata</p>
+            <p>Famili : Lorisidae</p>
+            <p>Genus : Nycticebus</p>
+            <p>Spesies : Nycticebus Javanicus</p>
+            <a href="kukang jawa.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/a5/66/99/a566991e551aa5fe86db1c8450873273.jpg" alt="">
+            </div>
+            <h2>Tarsius</h2>
+            <h3>(Tarsiidae)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Primata</p>
+            <p>Famili : Tarsiidae</p>
+            <p>Genus : Tarsius</p>
+            <p>Spesies : Tarsius Sulawesi</p>
+            <a href="tarsius.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/dd/b9/74/ddb974471e70a1b48be0766666f0c8f8.jpg" alt="">
+            </div>
+            <h2>Anoa</h2>
+            <h3>(Bubalus depressicornis)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Artiodactyla</p>
+            <p>Famili : Bovidae</p>
+            <p>Genus : Bubalus</p>
+            <p>Spesies : Bubalus depressicornis</p>
+            <a href="anoa.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/a0/fb/35/a0fb35cd134cb6af2890a46f4f51843f.jpg" alt="">
+            </div>
+            <h2>Kura-kura Leher Panjang</h2>
+            <h3>(Chelonida mccordi)</h3>
+            <p>Kelas : Sauropsida</p>
+            <p>Ordo : Testudines</p>
+            <p>Famili : Cheloniidae</p>
+            <p>Genus : Chelonida</p>
+            <p>Spesies : Chelonida mccordi</p>
+            <a href="kura-kura leher panjang.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://i.pinimg.com/564x/7e/ee/72/7eee723a2269d09624e2d968741fd0f7.jpg" alt="">
+            </div>
+            <h2>Tapir Sumatera</h2>
+            <h3>(Tapirus Indicus)</h3>
+            <p>Kelas : Mammalia</p>
+            <p>Ordo : Perissodactyla</p>
+            <p>Famili : Tapiridae</p>
+            <p>Genus : Tapirus</p>
+            <p>Spesies : Tapirus indicus</p>
+            <a href="tapir.html">Baca Selengkapnya</a>
+        </div>
+    </section>
+
+    <section class="reference" id="ref">
+        <div class="source">
+            <h1>Referensi Informasi Satwa</h1>
+            <h2>Wikipedia Satwa Endemik Indonesia</h2>
+            <div class="list">
+                <ul>
+                    <li><a href="https://id.wikipedia.org/wiki/Anoa">Anoa</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Badak_jawa">Badak Cula Satu</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Binturung">Binturung</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Cenderawasih">Burung Cendrawasih</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Elang_flores">Burung Elang Flores</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://id.wikipedia.org/wiki/Jalak_bali">Burung Jalak Bali</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Maleo_senkawor">Burung Maleo</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Gajah_sumatra">Gajah Sumatera</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Harimau_sumatra">Harimau Sumatera</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Komodo">Komodo</a></li>
+
+                </ul>
+                <ul>
+                    <li><a href="https://id.wikipedia.org/wiki/Kukang_jawa">Kukang Jawa</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Kura-kura_berleher-ular_rote">Kura-kura Leher Panjang</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Orang_utan">Orang Utan</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Tapir">Tapir</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Tarsius">Tarsius</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about_us" id="about">
+        <div class="tech">
+            <div class="title">
+                <h1>Website ini dibuat menggunakan</h1>
+            </div>
+            <label for="logo" class="icon">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-js-square"></i></label>
+        </div>
+
+        <div class="kami">
+            <div class="title">
+                <h1>Tentang Kami</h1>
+            </div>
+            <div class="bar">
+                <div class="avatar">
+                    <img src="image/hafidh.jpeg" alt="">
+                </div>
+                <div class="biodata">
+                    <h2 class="name">Muhammad Hafidh Dwyanto</h2>
+                    <h4 class="bio">NIM : 211511043</h4>
+                    <h4 class="bio">Hobi : Muncak, Futsal, Badminton</h5>
+                        <h4 class="bio">Cita-cita : Web Developer</h5>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="avatar">
+                    <img src="image/rheza.jpeg" alt="">
+                </div>
+                <div class="biodata">
+                    <h2 class="name">Rheza Panji Prasetya Nugroho</h2>
+                    <h4 class="bio">NIM : 211511056</h4>
+                    <h4 class="bio">Hobi : Naik Gunung dan Travelling</h4>
+                    <h4 class="bio">Cita-cita : Keliling Indonesia</h4>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="avatar">
+                    <img src="image/uqy.jpg" alt="">
+                </div>
+                <div class="biodata">
+                    <h2 class="name">Uqyanzie Bintang KFF</h2>
+                    <h4 class="bio">NIM : 211511062</h4>
+                    <h4 class="bio">Hobi : Musik, Travelling </h4>
+                    <h4 class="bio">Cita-cita : Powerful Engineer</h4>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h3> © Project Web PTIK : Kelompok 10 Kelas 1B Prodi D3-Teknik Informatika Polban 2021</h3>
+    </section>
+
+</body>
+
+</html>
